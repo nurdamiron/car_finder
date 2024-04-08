@@ -1,0 +1,30 @@
+name: car_finder
+description: A new Flutter project.
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0" # Ensure compatibility with null safety and Dart 3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/vets/
+    - assets/images/cats/
+    - assets/images/dogs/
+    - assets/images/hamsters/
+    - assets/images/bunnies/
